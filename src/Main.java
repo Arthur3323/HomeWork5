@@ -83,28 +83,28 @@ public class Main {
         System.out.println("\nРешение задачи 4:");
 
         int deliveryDistance = 101;
-        int dilivaryDay = 1;
-        String dilivaryText = "Потребуется дней: ";
-        String noDilivaryText = "доставки нет";
+        int diliveryDay = 1;
+        String diliveryText = "Потребуется дней: ";
+        String noDiliveryText = "доставки нет";
 
 
         if (deliveryDistance >= 100) {
-            System.out.println(noDilivaryText);
+            System.out.println(noDiliveryText);
         } else if (deliveryDistance <= 20) {
-            System.out.println(dilivaryText + dilivaryDay);
+            System.out.println(diliveryText + diliveryDay);
         } else if (deliveryDistance >= 20) {
-            dilivaryDay++;
+            diliveryDay++;
             if (deliveryDistance >= 60) {
-                dilivaryDay++;
+                diliveryDay++;
             }
-            System.out.println(dilivaryText + dilivaryDay);
+            System.out.println(diliveryText + diliveryDay);
         }
 
         // Задача 5
         System.out.println("\nРешение задачи 5:");
 
 
-        int nubmerOfMonth = 13;
+        int numberOfMonth = 13;
 
         String winter = "принадлежит к сезону зима";
         String spring = "принадлежит к сезону весна";
@@ -112,7 +112,7 @@ public class Main {
         String autumn = "принадлежит к сезону осень";
 
 
-        switch (nubmerOfMonth) {
+        switch (numberOfMonth) {
             case 1:
             case 2:
             case 12:
